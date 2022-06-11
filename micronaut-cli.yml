@@ -1,0 +1,6 @@
+applicationType: grpc
+defaultPackage: com.sdcontroler
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, data, data-jpa, grpc, jackson-databind, java, java-application, jdbc-hikari, junit, logback, maven, postgres, readme, shade, testcontainers, yaml]

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.sdcontroler";
+option java_outer_classname = "Sdcontroler";
+option objc_class_prefix = "HLW";
+
+package com.sdcontroler;
+
+service SdcontrolerService {
+  rpc send (SdcontrolerRequest) returns (SdcontrolerReply) {}
+}
+
+message SdcontrolerRequest {
+  string name = 1;
+}
+
+message SdcontrolerReply {
+  string message = 1;
+}
